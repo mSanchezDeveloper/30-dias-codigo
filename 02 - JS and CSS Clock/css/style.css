@@ -44,4 +44,20 @@ body {
     background: black;
     position: absolute;
     top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hand.hour-hand {
+    background: #303030;
+    border: solid 4px #303030;
+    border-radius: 5px;
+}
+
+.hand.min-hand {
+    background: #212121;
+    border: solid 2px #212121;
+    border-radius: 5px;
 }
